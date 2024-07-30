@@ -31,3 +31,7 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### deployment
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/122ecb9e-1fe4-4846-9666-2afaefe2051a/deploy-status)](https://app.netlify.com/sites/vue-amirsamimi/deploys)
