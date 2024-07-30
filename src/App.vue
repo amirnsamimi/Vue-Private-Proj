@@ -174,6 +174,7 @@ form, .wrapper{
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
+  color: black;
 }
 label {
   display: flex;
