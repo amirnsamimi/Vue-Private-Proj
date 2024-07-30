@@ -133,7 +133,7 @@ const formHandler = (): void => {
 
 <template>
   <div v-if="isLoggedIn" class="container">
-    <div>
+    <div class="wrapper">
     <div>  {{ dayState + " " + name }}</div>
     <br>
     <div>
@@ -167,7 +167,7 @@ const formHandler = (): void => {
   min-height: 100vh;
   
 }
-form {
+form, .wrapper{
   display: flex;
   flex-direction: column;
   gap: 1rem;
