@@ -143,6 +143,7 @@ const formHandler = (): void => {
   </div>
   <div v-if="!isLoggedIn" class="container">
     <form @submit.prevent="formHandler">
+      <h2>Login</h2>
       <label>
         email
         <input v-model="email" type="text" />
@@ -164,11 +165,15 @@ const formHandler = (): void => {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  
 }
 form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 label {
   display: flex;

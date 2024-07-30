@@ -1,1 +1,7 @@
 @import './base.css';
+
+body{
+  background-image: url("https://www.freevector.com/uploads/vector/preview/30348/Minimal_Dynamic_Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
