@@ -16,18 +16,18 @@ const usersList = <userObject[]>[
   {
     name: "Amir Samimi",
     email: "amirnsamimi@gmail.com",
-    password: "123456",
+    password: "123456"
   },
   {
     name: "Javid Izadfar",
     email: "Javid.Izadfar@gmail.com",
-    password: "654321",
+    password: "654321"
   },
   {
     name: "Alireza Gosili",
     email: "Alireza.Gosili@gmail.com",
-    password: "123654",
-  },
+    password: "123654"
+  }
 ];
 
 
@@ -71,6 +71,9 @@ const dateHandler = ():void => {
 
 
 const logoutHandler = ():void => {
+sanitizedAndValidatedEmail.value = ""
+email.value = ""
+password.value = ""
 isLoggedIn.value = false;
 }
 
